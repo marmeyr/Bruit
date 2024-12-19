@@ -10,9 +10,9 @@ L'objectif principal est de réduire le bruit total dans une salle de classe en 
 
 ## Algorithmes Explorés
 Pour atteindre cet objectif, nous avons implémenté et comparé plusieurs algorithmes d'optimisation :
-1. **Recuit Simulé Basique** : Une version classique inspirée des processus thermodynamiques.
-2. **Recuit Simulé Ciblé** : Une variante prenant en compte des critères spécifiques.
-3. **Recuit Simulé avec Rotation de 180°** : Une approche modifiée pour explorer un espace de solutions différent.
+1. **Recuit Simulé Basique** : On sélectionne un étudiant au hasard qu'on permute avec un autre étudiant.
+2. **Recuit Simulé Ciblé** : On sélectionne un étudiant au hasard, on regarde la catégorie de ses voisins qui est le moins représenter. Puis on regarde tous les étudiants de cette catégorie dans la salle, on en sélectionne un au hasard qu'on va permuter avec notre étudiant de base.
+3. **Recuit Simulé avec Rotation de 180°** : On fait une roation de 180°.
 4. **Algorithme Génétique** : Une méthode évolutive basée sur la sélection, le croisement et la mutation.
 
 ## Contenu
